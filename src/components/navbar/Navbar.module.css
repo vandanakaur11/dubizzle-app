@@ -1,0 +1,140 @@
+.navbarMain {
+    box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.InnerWrap {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.navbarWrap1 {
+    width: 40%;
+}
+.navbarWrap1:hover {
+    cursor: pointer;
+}
+
+.navbarWrap2 {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 280px;
+    /* height: 50px; */
+    justify-content: space-between;
+}
+
+.navbarWrap2Inner {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.navbarWrap2Inner:hover {
+    cursor: pointer;
+}
+.navbarWrap2Inner div:hover {
+    color: var(--themered);
+}
+.navbarWrap2Inner div {
+    /* color: var(--mediumGray); */
+    font-size: 12px;
+    /* font-weight: bold; */
+}
+.navbarWrap2Inner img {
+    height: 20px;
+}
+.navbarWrap2Inner img:hover {
+    color: var(--themered) !important;
+}
+.navbarWrap3 {
+    display: flex;
+    width: 100px;
+    /* height: 50px; */
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.navbarWrap3Inner:hover {
+    cursor: pointer;
+}
+.navbarWrap3Inner {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.navbarWrap3Inner div {
+    color: var(--darkMidGray);
+    font-size: 12px;
+    /* font-weight: bold; */
+}
+.navbarWrap3Inner div:hover {
+    color: var(--themered);
+}
+.navbarWrap3Inner img {
+    height: 20px;
+}
+.navbarWrap4 {
+    background-color: var(--blueGray);
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.navbarWrap4 div:hover {
+    cursor: pointer;
+    font-size: 17px;
+}
+.navbarWrap4 div {
+    font-size: 16px;
+    color: white;
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+.sidebarIcon {
+    display: none;
+}
+
+.icon {
+    color: var(--darkMidGray) !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.icon:hover {
+    color: red !important;
+}
+
+@media (max-width: 1050px) {
+    .navbarWrap2 {
+        display: none;
+    }
+    .navbarWrap3 {
+        display: none;
+    }
+    .navbarWrap4 {
+        display: none;
+    }
+    .sidebarIcon {
+        display: block;
+    }
+    .navbarWrap1 {
+        width: 80%;
+    }
+    .sidebarIcon {
+        color: var(--themered) !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbarWrap1 {
+        text-align: center;
+    }
+}

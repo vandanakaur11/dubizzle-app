@@ -1,0 +1,28 @@
+.sliderContainer {
+    height: 90vh;
+    /* border: 1px solid black; */
+
+    overflow-y: scroll;
+    overflow: auto;
+    /* background-color: blue; */
+    margin-top: 80px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media (max-width: 1200px) {
+    .sliderContainer {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .sliderContainer {
+        /* border: 1px solid black; */
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+}

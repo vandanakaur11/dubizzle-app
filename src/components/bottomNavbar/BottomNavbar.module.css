@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    height: 35px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--lightGray);
+    padding: 25px 15vw;
+    position: sticky;
+    top: 70px;
+    background-color: white;
+    z-index: 999;
+}
+
+.main div {
+    font-size: 14px;
+    /* font-weight: bold; */
+    color: var(--darkMidGray);
+}
+
+.main div:hover {
+    cursor: pointer;
+    color: var(--themered);
+}

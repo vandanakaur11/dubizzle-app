@@ -1,0 +1,68 @@
+.main {
+    margin-top: 80px;
+}
+.main h2 {
+    /* background-color: blue; */
+    /* padding-top: 80px; */
+    padding-bottom: 30px;
+}
+
+.accordionWrap {
+    display: flex;
+    border-bottom: 1px solid var(--mediumGray);
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 5px 0px;
+}
+.accordionWrap:hover {
+    cursor: pointer;
+}
+
+.accordionWrap img {
+    width: 20px;
+}
+
+.accordionWrapLeft {
+    display: flex;
+    align-items: center;
+}
+.accordionWrapLeft h3 {
+    margin-left: 15px;
+    font-size: 14px;
+}
+.accordionWrapLeft h3:hover {
+    color: var(--pinkish);
+}
+.accordionWrapLeft img {
+    width: 25px !important;
+    height: 30px;
+}
+
+.arrow {
+    color: var(--pinkish);
+}
+.subAccord div {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    /* background-color: var(--lightGray); */
+    padding: 10px 0px;
+    padding-left: 10px;
+    width: 90%;
+    margin: 10px 0px;
+    color: var(--blueGray);
+    /* border-left: 4px solid var(--themered); */
+}
+.subAccord div:hover {
+    background-color: var(--mediumGray);
+    cursor: pointer;
+    border-left: 4px solid var(--pinkish);
+    background-color: var(--lightGray);
+}
+
+@media (max-width: 1200px) {
+    .main {
+        padding-bottom: 50px;
+    }
+}

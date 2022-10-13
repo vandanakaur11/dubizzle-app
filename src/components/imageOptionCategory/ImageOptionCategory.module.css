@@ -1,0 +1,129 @@
+.main {
+    width: 70%;
+    height: 400px;
+    background-image: url(../../images/Image27.png);
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+
+.mainInner {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    /* border: 1px solid black; */
+    height: 88%;
+    width: 35%;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.left h2 {
+    color: var(--blueGray);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.right {
+    /* border: 1px solid black; */
+    height: 88%;
+    width: 60%;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.right h2 {
+    color: var(--blueGray);
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.inputMain {
+    /* border: 1px solid black; */
+    height: 88%;
+}
+
+.inputWrap {
+    /* border: 1px solid black; */
+    width: 45%;
+}
+.inputWrap div {
+    color: var(--darkMidGray);
+}
+
+.inputWrapInner {
+    border: 1px solid var(--mediumGray);
+    border-radius: 4px;
+    padding: 5px;
+}
+.inputWrapInner input {
+    outline: none;
+    border: 0px;
+    width: 80%;
+    padding-left: 5px;
+}
+
+.inputCont {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.Btn {
+    background-color: var(--blueGray);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.Btn:hover {
+    cursor: pointer;
+}
+
+.range {
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.range div {
+    font-size: 15px;
+    color: var(--darkMidGray);
+}
+
+.rightInnerTop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+    height: 130px;
+}
+
+.rightInnerTop div {
+    /* border: 1px solid var(--lightGray); */
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    height: 90%;
+    /* text-align: center; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

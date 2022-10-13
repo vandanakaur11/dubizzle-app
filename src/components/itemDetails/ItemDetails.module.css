@@ -1,0 +1,50 @@
+.main {
+    margin: 60px 15%;
+    /* border: 1px solid black; */
+    width: 45%;
+}
+
+.wrap {
+    display: flex;
+    padding: 15px 0px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.info {
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--blueGray);
+    padding-left: 10px;
+}
+.infoVal {
+    width: 50%;
+    font-size: 15px;
+    color: var(--darkMidGray);
+    padding-left: 10px;
+}
+
+.desc {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* margin-top: 80px; */
+    border-radius: 10px;
+}
+
+.desc div {
+    font-size: 15px;
+    color: var(--darkMidGray);
+}
+
+.main h2 {
+    color: var(--blueGray);
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.inspect {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* margin-top: 80px; */
+    border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+.main {
+    margin: 100px 15%;
+}
+.cardWrap {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    /* border: 1px solid var(--lightGray); */
+    box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    border-radius: 8px;
+    padding: 20px;
+}
+.card div {
+    font-weight: 500 !important;
+    color: var(--darkGray);
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.avatar div {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #5c9ebe;
+}
